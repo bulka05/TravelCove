@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+}
+
+.fon{
+    background-image: url(../foto/samolet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 150px;
+    height: 30px;
+}
+
+.header li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.tit{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text-tit h1{
+    align-self: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-tit p{
+    align-self: center;
+    color: white;
+}
+
+.text-tit{
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0 80px 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+}
+
+.inputs p{
+    font-size: 0.8em;
+}
+
+.inputs input{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.7em;
+    border: solid 1px gray;
+}
+
+.inputs-with-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-with-text select{
+    width: 170px;
+    height: 43px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.9em;
+    color: gray;
+    border: solid 1px gray;
+}
+
+.inputs-with-text p{
+    color: white;
+    font-size: 0.7em;
+    padding-left: 5px;
+}
+
+.input-without-text{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.button-tit{
+    align-self: center;
+    margin: 100px 0;
+}
+
+.button-tit button{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(238, 155, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.Travel-stories{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px;
+}
+
+.Travel-stories-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 50px 0;
+}
+
+.Travel-stories-title button{
+    border: solid 1px rgb(55, 125, 255);
+    color: rgb(55, 125, 255);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Travel-stories-title a{
+    text-decoration: none;
+    color: rgb(55, 125, 255);
+    
+}
+
+.Travel-stories-grid{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 420px 420px;
+}
+
+.storie{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 400px;
+    gap: 20px;
+
+}
+
+.storie p{
+    font-size: 0.8em;
+    padding: 0 10px;
+    color: gray;
+}
+
+.storie h3{
+    padding: 0 10px;
+}
+
+.storie img{
+    width: 220px;
+    height: 180px;
+}
+
+.storie:hover{
+    background-color: rgb(248, 248, 248);
+}
+
+.Travel-stories-informs{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 200px;
+    gap: 85px;
+    background-color: #1B4965;
+}
+
+.Travel-stories-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.Travel-stories-info h6{
+    font-size: 1.2em;
+}
+
+.Travel-stories-info p{
+    font-size: 0.9em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #153A51;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.7em;
+}
+
+.header-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    box-shadow: 0 0 25px rgb(175, 175, 175);
+    padding: 15px 0;
+}
+
+.header-2 li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.header-2 ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.header-2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.AboutCompany{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 200px;
+}
+
+.AboutCompany h2{
+    align-self: center;
+    padding-bottom: 40px;
+    font-size: 2em;
+}
+
+.comfortable{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7F7FF;
+}
+
+.comfortable h2{
+    align-self: center;
+    padding: 60px 0 ;
+}
+
+.comfortable-blocks-grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+}
+
+.comfortable-block{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 450px;
+    height: 150px;
+}
+
+.comfortable-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top:5px;
+}
+
+.comfortable-block:hover{
+    background-color: #ddf1fc;
+    padding: 10px;
+}
+
+.adres{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 200px 80px 200px;
+}
+
+.adres h2{
+    align-self: center;
+    padding: 40px 0;
+}
+
+.easy{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 200px;
+    gap: 30px;
+}
+
+.easy h2{
+    font-size: 2em;
+    align-self: center;
+}
+
+.Stories{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 200px;
+    gap: 20px;
+}
+
+.stories-grid{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 500px;
+    align-self: center;
+    justify-content: center
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 290px;
+}
+
+.stories p{
+    padding-left: 10px;
+}
+
+.stories h3{
+    padding-left: 10px;
+}
+
+.stories:hover{
+    background-color: #f1f1f1;
+}
+
+.stories img{
+    width: 290px;
+    height: 290px;
+}
+
+.stories p{
+    font-size: 0.8em;
+    color: gray;
+}
+
+.Stories-blue{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    gap: 20px;
+    background-color:#E7F7FF;
+}
+
+.Stories-blue h2{
+    margin: 40px 200px 20px 200px;
+}
+
+.stories-blue{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 290px;
+}
+
+.stories-blue p{
+    padding-left: 10px;
+}
+
+.stories-blue h3{
+    padding-left: 10px;
+}
+
+.stories-blue:hover{
+    background-color:#ddf1fc;
+}
+
+.stories-blue img{
+    width: 290px;
+    height: 290px;
+}
+
+.stories-blue p{
+    font-size: 0.8em;
+    color: gray;
+}
